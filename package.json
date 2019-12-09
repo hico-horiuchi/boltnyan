@@ -1,0 +1,22 @@
+{
+  "name": "boltnyan",
+  "version": "1.0.0",
+  "description": "https://slack.dev/bolt",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hico-horiuchi/boltnyan.git"
+  },
+  "author": "Akihiko Horiuchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hico-horiuchi/boltnyan/issues"
+  },
+  "homepage": "https://github.com/hico-horiuchi/boltnyan#readme",
+  "dependencies": {
+    "@slack/bolt": "^1.4.1"
+  }
+}
