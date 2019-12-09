@@ -100,7 +100,7 @@ app.action({ callback_id: 'game_menu' }, ({ body, ack, say }) => {
 });
 
 app.error((error) => {
-	console.error(error);
+  console.error(error);
 });
 
 (async () => {
