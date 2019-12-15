@@ -48,8 +48,7 @@ app.message('boltnyan button', ({ message, say }) => {
 });
 
 app.action({ callback_id: 'game_button' }, ({ body, ack, say }) => {
-  ack();
-  say(`<@${body.user.id}> clicked ${body.actions[0].value}`);
+  ack(`<@${body.user.id}> clicked ${body.actions[0].value}`);
 });
 
 // https://api.slack.com/docs/message-menus
@@ -95,8 +94,7 @@ app.message('boltnyan menu', ({ message, say }) => {
 });
 
 app.action({ callback_id: 'game_menu' }, ({ body, ack, say }) => {
-  ack();
-  say(`<@${body.user.id}> selected ${body.actions[0].selected_options[0].value}`);
+  ack(`<@${body.user.id}> selected ${body.actions[0].selected_options[0].value}`);
 });
 
 app.error((error) => {
