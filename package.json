@@ -1,7 +1,7 @@
 {
   "name": "boltnyan",
   "version": "1.0.0",
-  "description": "https://slack.dev/bolt",
+  "description": "A sample of bolt that integrate with slack message buttons and menus.",
   "main": "app.js",
   "scripts": {
     "start": "bin/bolt"
